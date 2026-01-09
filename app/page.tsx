@@ -13,6 +13,39 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-100 p-6">
       <div className="max-w-7xl mx-auto">
+        {/* Creator Info */}
+        <div className="text-center mb-6">
+          <p className="text-sm text-gray-600">
+            Built by{' '}
+            <span className="font-medium text-gray-700">Prajeet Darda</span>
+            {' '} · {' '}
+            <a
+              href="https://www.linkedin.com/in/prajeet-darda"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              LinkedIn
+            </a>
+            {' '} · {' '}
+            <a
+              href="https://github.com/prajeetdarda"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              GitHub
+            </a>
+            {' '} · {' '}
+            <a
+              href="mailto:prajeetdarda@gmail.com"
+              className="text-blue-600 hover:underline"
+            >
+              prajeetdarda@gmail.com
+            </a>
+          </p>
+        </div>
+
         {/* Header Section - Full Width */}
         <div className="mb-8">
           {/* Title & Description */}
@@ -159,7 +192,9 @@ export default function Home() {
       <div className="mt-8 text-center text-gray-600 text-sm">
         <p className="mb-2">Built to showcase Multi-Agent Systems, LangGraph, and Agentic AI</p>
         <a
-          href="https://github.com"
+          href="https://github.com/prajeetdarda/AutoCRM"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-blue-500 hover:underline font-medium"
         >
           View Source Code →
